@@ -1,0 +1,24 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  path {
+    stroke: rgb(var(--color-text));
+  }
+}
+
+.icon-plus {
+  margin-right: var(--icon-margin);
+  margin-left: var(--icon-padding);
+}
+
+.icon-brackets {
+  margin-left: var(--icon-margin);
+  margin-right: var(--icon-padding);
+  svg {
+    transform: rotate(90deg);
+  }
+}
+
+.icon-standalone {
+  margin: var(--icon-margin);
+}

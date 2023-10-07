@@ -1,0 +1,91 @@
+
+.button {
+    font-size: 14px;
+    border: none;
+    transition: all 0.2s linear;
+    display: flex;
+    align-items: center;
+
+    color: rgb(var(--color-text));
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    padding: var(--padding);
+}
+
+.leading, .leading-trailing, .standalone {
+    padding-left: 0;
+}
+
+.trailing, .leading-trailing, .standalone {
+    padding-right: 0;
+}
+
+.solid {
+    background-color: rgba(var(--color-main));
+    &.hover {
+        &:hover {
+            background-color: rgba(var(--color-hover));
+        }
+    }
+}
+
+.outline {
+    background-color: rgba(0,0,0,0);
+    &.hover {
+        &:hover {
+            background-color: rgba(var(--color-main), 0.12);
+        }
+    }
+
+    outline: 1px solid rgba(var(--color-main), 0.22);
+}
+
+.soft {
+    background-color: rgba(var(--color-main), 0.12);
+    &.hover {
+        &:hover {
+            background-color: rgba(var(--color-main), 0.22);
+        }
+    }
+}
+
+.ghost {
+    background: none;
+    &.hover {
+        &:hover {
+            background-color: rgba(var(--color-main), 0.12);
+        }
+    }
+}
+
+.disabled {
+    &:not(.ghost) {
+        outline: 1px solid rgba(var(--color-main), 0.7);
+    }
+
+    &.soft {
+        background-color: rgba(var(--color-main), 0.7);
+    }
+}
+
+.secondary {
+    &.outline, &.ghost {
+        &.hover {
+            &:hover {
+                background-color: rgba(var(--color-main), 0.5);
+            }
+        }
+        outline: 1px solid rgba(var(--color-main), 0.7);
+    }
+    &.soft {
+        background-color: rgba(var(--color-main), 0.5);
+        &.hover {
+            &:hover {
+                background-color: rgba(var(--color-main), 0.7);
+            }
+        }
+    }
+}
