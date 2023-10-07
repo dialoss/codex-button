@@ -44,9 +44,7 @@ const Button = (props: IButton) => {
     }, [props]);
 
     return (
-        <SmoothCorners
-            corners={props.icontype !== 'standalone' ? "12, 3" : "3"}
-            as="div" className={'button'}>
+        <div className={'button'}>
             <button className={styles.button + ' ' + buttonStyle} ref={ref} onClick={props.onClick}>
                 {
                     ['leading', 'standalone', 'leading-trailing'].includes(props.icontype) &&
@@ -61,7 +59,7 @@ const Button = (props: IButton) => {
                     <Icon name={props.icons[1]} type={props.icontype}/>
                 }
             </button>
-        </SmoothCorners>
+        </div>
     );
 };
 
