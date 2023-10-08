@@ -45,10 +45,18 @@
     justify-content: center;
     width: 70%;
     color: #fafafa;
+    overflow-x: auto;
 
     word-break: keep-all;
     word-wrap: normal;
     line-break: normal;
+
+    @media only screen and (max-width: 500px) {
+        & {
+            justify-content: initial;
+            width: 90%;
+        }
+    }
 
     &__column {
         width: 150px;
