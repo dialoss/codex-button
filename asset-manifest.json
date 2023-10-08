@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/codex-button/static/css/main.05de7dc8.css",
+    "main.css": "/codex-button/static/css/main.832333b0.css",
     "main.js": "/codex-button/static/js/main.cbb032c2.js",
     "static/media/add-background.svg": "/codex-button/static/media/add-background.b3fa3132f39eaaad1985b7d41b37878b.svg",
     "index.html": "/codex-button/index.html",
     "static/media/brackets.svg": "/codex-button/static/media/brackets.3fb377f0648dc75a6e3a3f439a0acbb4.svg",
     "static/media/plus.svg": "/codex-button/static/media/plus.194778ce5220ea606bad97931bb41d87.svg",
-    "main.05de7dc8.css.map": "/codex-button/static/css/main.05de7dc8.css.map",
+    "main.832333b0.css.map": "/codex-button/static/css/main.832333b0.css.map",
     "main.cbb032c2.js.map": "/codex-button/static/js/main.cbb032c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.05de7dc8.css",
+    "static/css/main.832333b0.css",
     "static/js/main.cbb032c2.js"
   ]
 }
